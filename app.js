@@ -1,3 +1,4 @@
+//خودم اضافه کردم
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
@@ -73,7 +74,9 @@ mongoose
 // Start server
 startServer(PORT);
 
-//.................................
+
+
+// برنامه نویس بک‌اند نوشته
 
 // require('dotenv').config();
 // const express = require('express');
