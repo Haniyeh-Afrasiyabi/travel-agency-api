@@ -8,6 +8,13 @@ const path = require("path");
 
 const app = express();
 
+
+const corsOptions = {
+  origin: ["https://next-turino-app-kscn.vercel.app"], // آدرس فرانت آنلاین
+  credentials: true,
+};
+app.use(cors(corsOptions));
+
 // Middleware
 app.use(cors());
 app.use(express.json());
